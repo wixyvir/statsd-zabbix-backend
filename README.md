@@ -3,6 +3,8 @@
 ## Overview
 This is a pluggable backend for [StatsD](https://github.com/etsy/statsd), which publishes stats to Zabbix.
 
+This fork correct an issue about zabbix key parsing I had while using this project. Details here: https://github.com/parkerd/statsd-zabbix-backend/pull/1
+
 ## Installation
 
     npm install statsd-zabbix-backend
